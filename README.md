@@ -2,7 +2,7 @@ import os
 from github import Github, GithubException
 
 def get_github_client:
-    token = os.getenv("GITHUB_TOKEN")
+    token  os.getenv("GITHUB_TOKEN")
     if not token:
         raise RuntimeError("توکن گیت‌هاب پیدا نشد. لطفاً GITHUB_TOKEN را تنظیم کن.")
     return Github(token)
