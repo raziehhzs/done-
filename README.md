@@ -1,4 +1,4 @@
-.>import os
+import os
 from github import Github, GithubException
 
 def get_github_client:
